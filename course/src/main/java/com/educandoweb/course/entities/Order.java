@@ -93,6 +93,15 @@ public class Order implements Serializable {
         return items;
     }
 
+    // methods
+    public double getTotal(){
+        double total = 0.0;
+        for (OrderItem item : items){
+            total += item.getSubTotal();
+        }
+        return total;
+    }
+
     // hashCode and Equals
     @Override
     public boolean equals(Object o) {
