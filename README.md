@@ -31,6 +31,9 @@ Prerequisites: Java 17+
 git clone https://github.com/victordev018/workshop-springboot3-jpa
 ```
 
+## Thanks
+Thank you [DevSuperior](https://devsuperior.com "Site da DevSuperior") for guiding all the application development in the course: COMPLETE Java Object-Oriented Programming + Projects
+
 # Autor
 
 Joao Victor
